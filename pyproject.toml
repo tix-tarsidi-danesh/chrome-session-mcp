@@ -1,0 +1,33 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "chrome-session-mcp"
+version = "0.1.0"
+description = "MCP server that lets an AI agent use the web apps you are already logged in to in Google Chrome (Grafana, Slack, Jenkins, SonarQube, Confluence, Kibana, any cookie-authenticated site)."
+readme = "README.md"
+license = { text = "MIT" }
+requires-python = ">=3.9"
+dependencies = []
+keywords = ["mcp", "model-context-protocol", "claude", "chrome", "cookies", "grafana", "slack", "jenkins", "confluence", "kibana"]
+classifiers = [
+  "Development Status :: 4 - Beta",
+  "Environment :: Console",
+  "Intended Audience :: Developers",
+  "License :: OSI Approved :: MIT License",
+  "Operating System :: MacOS",
+  "Operating System :: POSIX :: Linux",
+  "Programming Language :: Python :: 3",
+  "Programming Language :: Python :: 3 :: Only",
+  "Topic :: Software Development :: Libraries",
+]
+
+[project.optional-dependencies]
+certifi = ["certifi"]
+
+[project.scripts]
+chrome-session-mcp = "chrome_session_mcp.server:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]

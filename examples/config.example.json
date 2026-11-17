@@ -1,0 +1,46 @@
+{
+  "settings": {
+    "login_wait": 180,
+    "open_browser": true
+  },
+  "connectors": {
+    "grafana": {
+      "type": "grafana",
+      "base_url": "https://grafana.example.com",
+      "description": "Production metrics"
+    },
+    "slack": {
+      "type": "slack",
+      "workspace": "example.slack.com"
+    },
+    "jenkins": {
+      "type": "jenkins",
+      "base_url": "https://jenkins.example.com",
+      "job_path": "job/team/job/my-service",
+      "sonar": "sonar",
+      "sonar_project": "my-service"
+    },
+    "sonar": {
+      "type": "sonarqube",
+      "base_url": "https://sonar.example.com"
+    },
+    "confluence": {
+      "type": "confluence",
+      "base_url": "https://example.atlassian.net",
+      "allow_write": false
+    },
+    "kibana": {
+      "type": "kibana",
+      "base_url": "https://kibana.example.com"
+    },
+    "admin": {
+      "type": "http",
+      "base_url": "https://admin.example.com",
+      "probe": "/api/me",
+      "csrf": {
+        "cookie": "XSRF-TOKEN",
+        "header": "X-XSRF-TOKEN"
+      }
+    }
+  }
+}
