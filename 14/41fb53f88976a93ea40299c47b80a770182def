@@ -1,0 +1,19 @@
+.github/workflows/test.yml
+  s_d9f38106b54f3d::t_f4df207dd3e264 18-24,27-28
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.11",
+  "base_commit_sha": "1441fb53f88976a93ea40299c47b80a770182def",
+  "prompts": {},
+  "sessions": {
+    "s_d9f38106b54f3d": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "554cf4e3-857f-4973-9cb0-478c07dd997f",
+        "model": "claude-opus-5-5"
+      },
+      "human_author": "Tarsidi <tarsidi.danesh@tiket.com>"
+    }
+  }
+}
