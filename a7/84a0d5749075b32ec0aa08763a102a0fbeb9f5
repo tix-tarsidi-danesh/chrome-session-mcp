@@ -1,0 +1,85 @@
+.github/workflows/test.yml
+  s_d9f38106b54f3d::t_cb036d16209c09 1-29
+.gitignore
+  s_d9f38106b54f3d::t_969a2a459620a3 1-11
+CHANGELOG.md
+  s_d9f38106b54f3d::t_c6a702a88b72f4 1-18
+README.md
+  s_d9f38106b54f3d::t_20ddfedbc44526 1-355
+SECURITY.md
+  s_d9f38106b54f3d::t_7f4d6125df8bb8 1-35
+examples/config.example.json
+  s_d9f38106b54f3d::t_7277990b95bd6f 1-46
+examples/custom_connectors/acme_connectors/feature_flags.py
+  s_d9f38106b54f3d::t_1976fa3945117e 1-59
+pyproject.toml
+  s_d9f38106b54f3d::t_e9178dfc0b5ba4 1-33
+src/chrome_session_mcp/__init__.py
+  s_e3f44f71404541::t_06579b1173c66e 1-9
+src/chrome_session_mcp/__main__.py
+  s_e3f44f71404541::t_a59c36088145eb 1-3
+src/chrome_session_mcp/auth.py
+  s_d9f38106b54f3d::t_5fdc4317b66cb6 1-122
+src/chrome_session_mcp/builtins.py
+  s_d9f38106b54f3d::t_8cf8c5726fe259 1-82
+src/chrome_session_mcp/config.py
+  s_d9f38106b54f3d::t_eb4a456ea058d9 1-134
+src/chrome_session_mcp/connectors/__init__.py
+  s_e3f44f71404541::t_e09398688c080c 1-2
+src/chrome_session_mcp/connectors/slack.py
+  s_d9f38106b54f3d::t_777377b6b74b23 1-375
+src/chrome_session_mcp/registry.py
+  s_d9f38106b54f3d::t_ed0f9828d1a074 1-172
+src/chrome_session_mcp/server.py
+  s_d9f38106b54f3d::t_53d9f7908c32d3 1-177
+tests/support.py
+  s_d9f38106b54f3d::t_ecdd7e7df52e37 1-20
+tests/test_auth.py
+  s_d9f38106b54f3d::t_1bfba06d7dccc0 1-66
+tests/test_config.py
+  s_d9f38106b54f3d::t_f25b9c3405b4c2 1-83
+tests/test_connectors.py
+  s_d9f38106b54f3d::t_e05d5c028f1196 1-122
+tests/test_server.py
+  s_d9f38106b54f3d::t_e9fd0465cd877c 1-107
+tests/test_util.py
+  s_d9f38106b54f3d::t_8ebcbe1f88dacc 1-56
+src/chrome_session_mcp/chrome.py
+  s_d9f38106b54f3d::t_b773d922d86f86 1-302
+src/chrome_session_mcp/connectors/confluence.py
+  s_d9f38106b54f3d::t_3cc8d2a37a02ca 1-316
+src/chrome_session_mcp/connectors/grafana.py
+  s_d9f38106b54f3d::t_7f085fa04e439d 1-321
+src/chrome_session_mcp/connectors/http_site.py
+  s_d9f38106b54f3d::t_87f48fa7286877 1-81
+src/chrome_session_mcp/connectors/jenkins.py
+  s_d9f38106b54f3d::t_c273886eeae7cb 1-244
+src/chrome_session_mcp/connectors/kibana.py
+  s_d9f38106b54f3d::t_812e1105179d94 1-169
+src/chrome_session_mcp/util.py
+  s_d9f38106b54f3d::t_5fb6e488dee55b 1-182
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.11",
+  "base_commit_sha": "a784a0d5749075b32ec0aa08763a102a0fbeb9f5",
+  "prompts": {},
+  "sessions": {
+    "s_d9f38106b54f3d": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "554cf4e3-857f-4973-9cb0-478c07dd997f",
+        "model": "claude-opus-5-5"
+      },
+      "human_author": "Tarsidi <tarsidi.danesh@tiket.com>"
+    },
+    "s_e3f44f71404541": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "593732f4-4714-4312-b6fe-718f314efc7f",
+        "model": "claude-opus-5-5"
+      },
+      "human_author": "Tarsidi <tarsidi.danesh@tiket.com>"
+    }
+  }
+}
